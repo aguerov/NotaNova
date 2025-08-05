@@ -8,6 +8,14 @@ NotaNova es un backend construido con [FastAPI](https://fastapi.tiangolo.com/) y
 pip install -r requirements.txt
 ```
 
+## Demo sin base de datos
+
+```bash
+uvicorn app.demo:app --reload
+```
+
+Este modo usa almacenamiento en memoria, por lo que los datos se pierden al reiniciar la aplicación.
+
 ## Ejecución local
 
 ```bash
