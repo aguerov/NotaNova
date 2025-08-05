@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+venv/
+
+# SQLite database
+notanova.db
+
+# Others
+.idea/
+.vscode/
